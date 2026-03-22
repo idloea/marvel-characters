@@ -14,9 +14,12 @@ variables:
   git_sha:
     description: git_sha
     default: abcd
+  environment_version:
+    description: databricks serverless environment version
+    default: "2"
   branch:
     description: branch
-    default: main
+    default: dev
   schedule_pause_status:
     description: schedule pause status
     default: PAUSED
